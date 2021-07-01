@@ -17,8 +17,8 @@ class PlayGame(commands.Cog):
         self.timer_message = None
         self.can_skip_timer = False
         # self.randomPrint.start()
-        # self.game_advancer.start()
-        self.printer.start()
+        self.game_advancer.start()
+        # self.printer.start()
 
         # Variables for saving player inputs:
 
